@@ -1,10 +1,10 @@
 import React, { ButtonHTMLAttributes } from "react";
 
 interface FloatButtonOwnProps {
-  size?: "small" | "medium" | "large"; // 버튼 크기
-  color?: string; // 버튼 배경색
-  position?: "left" | "right" | "center"; // 버튼 위치
-  shape?: "circle" | "rounded"; // 버튼 모양
+  size?: "small" | "medium" | "large";
+  color?: string;
+  position?: "left" | "right" | "center";
+  shape?: "circle" | "rounded";
   children?: React.ReactNode;
   icon?: React.ReactNode;
   text?: string;
